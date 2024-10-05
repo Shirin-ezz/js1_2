@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS2</title>
+    <script type="text/javascript">
+        // Ask the user to enter a temperature in Fahrenheit
+        var tempFahrenheit = prompt("Enter the temperature in Fahrenheit:");
+        tempFahrenheit = parseFloat(tempFahrenheit);
+
+        // Convert Fahrenheit to Celsius
+        var tempCelsius = (tempFahrenheit - 32) * 5 / 9;
+
+        // Display the Celsius temperature in a popup
+        alert("The temperature in Celsius is: " + tempCelsius);
+
+        // Ask the user to enter a temperature in Celsius
+        var tempCelsiusInput = prompt("Enter the temperature in Celsius:");
+        tempCelsiusInput = parseFloat(tempCelsiusInput);
+
+        // Convert Celsius to Fahrenheit
+        var tempFahrenheitResult = (tempCelsiusInput * 9 / 5) + 32;
+
+        // Display the Fahrenheit temperature in a popup
+        alert("The temperature in Fahrenheit is: " + tempFahrenheitResult);
+    </script>
+</head>
+<body>
+</body>
+</html>
